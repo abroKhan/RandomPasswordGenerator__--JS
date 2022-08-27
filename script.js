@@ -27,8 +27,6 @@ function generatePass(){
         }
         passOneEl.textContent = storingPassOne
         passTwoEl.textContent = storingPassTwo
-        // console.log(storingPassOne);
-        // console.log(storingPassTwo);
         btnEl.textContent = "ReGenerate Passwords"
 }
 

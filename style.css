@@ -60,3 +60,11 @@ button:hover {
     margin: 15px 0;
     cursor: pointer;
 }
+
+
+@media (max-width: 400px) {
+    .container{
+        width: 400px;
+        height: 500px;
+    }
+}

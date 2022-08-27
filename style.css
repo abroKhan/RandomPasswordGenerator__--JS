@@ -1,10 +1,11 @@
 body {
     height: 100vh;
+
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0;
-    background: rgb(192, 177, 177);
+    background: linear-gradient(black,white);
     font-family: 'Karla', sans-serif;
 }
 

@@ -1,0 +1,62 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background: rgb(192, 177, 177);
+    font-family: 'Karla', sans-serif;
+}
+
+.container {
+    width: 450px;
+    height: 450px;
+    background: #1F2937;
+    border-radius: 4px;
+    color: white;
+}
+
+.content__container {
+    margin: 30px 40px 0px;
+}
+
+.primary__heading {
+    font-size: 35px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.secondry__heading {
+    font-size: 20px;
+    margin: 5px 0px;
+}
+
+button {
+    background: #10B981;
+    color: inherit;
+    font-family: inherit;
+    font-size: 20px;
+    outline: none;
+    border: 1px solid #10B981;
+    border-radius: 5px;
+    padding: 6px 10px;
+    margin: 35px 0px 20px 0px;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+button:hover {
+    border: 1px solid #10B981;
+    background: none;
+}
+
+.pass__field{
+    display: block;
+    height: 30px;
+    color: #10B981;
+    font-size: 17px;
+    border-bottom: 2px solid gray;
+    padding: 10px 0px 0px 20px;
+    margin: 15px 0;
+    cursor: pointer;
+}
